@@ -7,13 +7,18 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes/app.routes';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent, AboutComponent } from './components';
+import {
+  NavbarComponent, 
+  AboutComponent,
+  SearchComponent
+} from './components';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
