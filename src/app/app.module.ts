@@ -15,7 +15,8 @@ import { AppComponent } from './app.component';
 import {
   NavbarComponent, 
   AboutComponent,
-  SearchComponent
+  SearchComponent,
+  ArtistComponent
 } from './components';
 
 @NgModule({
@@ -23,7 +24,8 @@ import {
     AppComponent,
     NavbarComponent,
     AboutComponent,
-    SearchComponent
+    SearchComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserModule,
