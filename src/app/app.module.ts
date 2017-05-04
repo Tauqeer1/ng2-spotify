@@ -16,7 +16,8 @@ import {
   NavbarComponent, 
   AboutComponent,
   SearchComponent,
-  ArtistComponent
+  ArtistComponent,
+  AlbumComponent
 } from './components';
 
 @NgModule({
@@ -25,7 +26,8 @@ import {
     NavbarComponent,
     AboutComponent,
     SearchComponent,
-    ArtistComponent
+    ArtistComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
